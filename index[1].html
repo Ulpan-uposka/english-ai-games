@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>English Learning AI Game</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Family and Friends</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to AI English Game</h1>
-    <p>Choose the correct word:</p>
+    <h1>My Family and Friends</h1>
     <div id="question">Loading question...</div>
-    <div id="options"></div>
-    <div id="result"></div>
-    <button onclick="nextQuestion()">Next</button>
+    <div id="answers"></div>
+    <button id="nextBtn">Next</button>
   </div>
+  <audio id="correctSound" src="correct.mp3"></audio>
+  <audio id="wrongSound" src="wrong.mp3"></audio>
   <script src="script.js"></script>
 </body>
 </html>
